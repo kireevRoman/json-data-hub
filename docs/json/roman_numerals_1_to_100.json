@@ -1,0 +1,235 @@
+{
+    "meta": {
+      "title": "Римские цифры: от 1 до 100 (выборочно)",
+      "description": "Пример записи римских чисел от 1 до 100 с правилами формирования",
+      "categoryId": "education",
+      "tags": ["римские цифры", "математика", "чтение чисел"],
+      "version": "1.0.0",
+      "lastUpdated": "2026-04-17",
+      "sources": [],
+      "itemsFields": {
+        "decimal": "Десятичное число",
+        "roman": "Римское число",
+        "rule": "Правило формирования",
+        "components": "Разбор по символам"
+      }
+    },
+    "items": [
+      {
+        "decimal": 1,
+        "roman": "I",
+        "rule": "повторение I",
+        "components": "I"
+      },
+      {
+        "decimal": 2,
+        "roman": "II",
+        "rule": "повторение I",
+        "components": "I + I"
+      },
+      {
+        "decimal": 3,
+        "roman": "III",
+        "rule": "повторение I",
+        "components": "I + I + I"
+      },
+      {
+        "decimal": 4,
+        "roman": "IV",
+        "rule": "I перед V = 5 - 1 (вычитание)",
+        "components": "I (1) + V (5) → 5-1"
+      },
+      {
+        "decimal": 5,
+        "roman": "V",
+        "rule": "базовый символ = 5",
+        "components": "V"
+      },
+      {
+        "decimal": 6,
+        "roman": "VI",
+        "rule": "V + повторение I = 5 + 1",
+        "components": "V + I"
+      },
+      {
+        "decimal": 7,
+        "roman": "VII",
+        "rule": "V + повторение I = 5 + 2",
+        "components": "V + I + I"
+      },
+      {
+        "decimal": 8,
+        "roman": "VIII",
+        "rule": "V + повторение I = 5 + 3",
+        "components": "V + I + I + I"
+      },
+      {
+        "decimal": 9,
+        "roman": "IX",
+        "rule": "I перед X = 10 - 1 (вычитание)",
+        "components": "I (1) + X (10) → 10-1"
+      },
+      {
+        "decimal": 10,
+        "roman": "X",
+        "rule": "базовый символ = 10",
+        "components": "X"
+      },
+      {
+        "decimal": 20,
+        "roman": "XX",
+        "rule": "повторение X = 10 + 10",
+        "components": "X + X"
+      },
+      {
+        "decimal": 30,
+        "roman": "XXX",
+        "rule": "повторение X = 10 + 10 + 10",
+        "components": "X + X + X"
+      },
+      {
+        "decimal": 40,
+        "roman": "XL",
+        "rule": "X перед L = 50 - 10 (вычитание)",
+        "components": "X (10) + L (50) → 50-10"
+      },
+      {
+        "decimal": 50,
+        "roman": "L",
+        "rule": "базовый символ = 50",
+        "components": "L"
+      },
+      {
+        "decimal": 60,
+        "roman": "LX",
+        "rule": "L + X = 50 + 10",
+        "components": "L + X"
+      },
+      {
+        "decimal": 70,
+        "roman": "LXX",
+        "rule": "L + X + X = 50 + 10 + 10",
+        "components": "L + X + X"
+      },
+      {
+        "decimal": 80,
+        "roman": "LXXX",
+        "rule": "L + X + X + X = 50 + 10 + 10 + 10",
+        "components": "L + X + X + X"
+      },
+      {
+        "decimal": 90,
+        "roman": "XC",
+        "rule": "X перед C = 100 - 10 (вычитание)",
+        "components": "X (10) + C (100) → 100-10"
+      },
+      {
+        "decimal": 100,
+        "roman": "C",
+        "rule": "базовый символ = 100",
+        "components": "C"
+      },
+      {
+        "decimal": 14,
+        "roman": "XIV",
+        "rule": "комбинация: X + IV = 10 + (5-1)",
+        "components": "X (10) + I (1) + V (5) → 10 + 4"
+      },
+      {
+        "decimal": 19,
+        "roman": "XIX",
+        "rule": "X + IX = 10 + (10-1)",
+        "components": "X (10) + I (1) + X (10) → 10 + 9"
+      },
+      {
+        "decimal": 24,
+        "roman": "XXIV",
+        "rule": "X+X + IV = 20 + (5-1)",
+        "components": "X + X + I + V"
+      },
+      {
+        "decimal": 29,
+        "roman": "XXIX",
+        "rule": "X+X + IX = 20 + (10-1)",
+        "components": "X + X + I + X"
+      },
+      {
+        "decimal": 41,
+        "roman": "XLI",
+        "rule": "XL + I = (50-10) + 1",
+        "components": "X + L + I"
+      },
+      {
+        "decimal": 44,
+        "roman": "XLIV",
+        "rule": "XL + IV = (50-10) + (5-1)",
+        "components": "X + L + I + V"
+      },
+      {
+        "decimal": 49,
+        "roman": "XLIX",
+        "rule": "XL + IX = (50-10) + (10-1)",
+        "components": "X + L + I + X"
+      },
+      {
+        "decimal": 54,
+        "roman": "LIV",
+        "rule": "L + IV = 50 + (5-1)",
+        "components": "L + I + V"
+      },
+      {
+        "decimal": 59,
+        "roman": "LIX",
+        "rule": "L + IX = 50 + (10-1)",
+        "components": "L + I + X"
+      },
+      {
+        "decimal": 64,
+        "roman": "LXIV",
+        "rule": "L+X + IV = 60 + (5-1)",
+        "components": "L + X + I + V"
+      },
+      {
+        "decimal": 69,
+        "roman": "LXIX",
+        "rule": "L+X + IX = 60 + (10-1)",
+        "components": "L + X + I + X"
+      },
+      {
+        "decimal": 74,
+        "roman": "LXXIV",
+        "rule": "L+X+X + IV = 70 + (5-1)",
+        "components": "L + X + X + I + V"
+      },
+      {
+        "decimal": 79,
+        "roman": "LXXIX",
+        "rule": "L+X+X + IX = 70 + (10-1)",
+        "components": "L + X + X + I + X"
+      },
+      {
+        "decimal": 84,
+        "roman": "LXXXIV",
+        "rule": "L+X+X+X + IV = 80 + (5-1)",
+        "components": "L + X + X + X + I + V"
+      },
+      {
+        "decimal": 89,
+        "roman": "LXXXIX",
+        "rule": "L+X+X+X + IX = 80 + (10-1)",
+        "components": "L + X + X + X + I + X"
+      },
+      {
+        "decimal": 94,
+        "roman": "XCIV",
+        "rule": "XC + IV = (100-10) + (5-1)",
+        "components": "X + C + I + V"
+      },
+      {
+        "decimal": 99,
+        "roman": "XCIX",
+        "rule": "XC + IX = (100-10) + (10-1)",
+        "components": "X + C + I + X"
+      }
+    ]
+  }
