@@ -1,9 +1,69 @@
-# JSON Data Hub
+<div align="center">
+  
+# 📦 JSON Data Hub
+  
+**Открытая платформа структурированных JSON-данных для разработчиков**
+  
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue?logo=githubpages&logoColor=white)](https://kireevroman.github.io/json-data-hub/)
+[![Nuxt](https://img.shields.io/badge/Nuxt-4.4.2-00DC82?logo=nuxt.js&logoColor=white)](https://nuxt.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Data Sets](https://img.shields.io/badge/📊%20Data%20Sets-12-blue)](https://kireevroman.github.io/json-data-hub/)
+  
+<p align="center">
+  <strong>Справочники, памятки, таблицы — всё в формате JSON с готовыми API-эндпоинтами</strong><br/>
+  Идеально для прототипирования, обучения и быстрой интеграции
+</p>
+  
+[🌐 Открыть сайт](https://kireevroman.github.io/json-data-hub/) •
+[📧 Связаться](mailto:your.email@example.com)
+  
+</div>
 
-Этот репозиторий служит удобным источником JSON-данных через GitHub Pages.  
-Используйте URL вида:  
-`https://kireevroman.github.io/json-data-hub/data/users.json`
+---
 
-## Доступные данные
-- `/data/users.json` — тестовые пользователи
-- `/data/products.json` — примеры товаров
+## 📚 Содержание
+
+- [Использование API](#-использование-api)
+- [Форматы экспорта](#-форматы-экспорта)
+- [Лицензия](#-лицензия)
+
+---
+
+## 🔌 Использование API
+
+### Базовый URL
+
+| Назначение | URL |
+|------------|-----|
+| Каталог датасетов | `https://kireevroman.github.io/json-data-hub/` |
+
+### Примеры запросов
+
+**Таблица умножения:**
+
+```bash
+curl -s "https://kireevroman.github.io/json-data-hub/json/education/multiplication_table_1_to_10.json"
+```
+
+**Контакты для экстренных случаев:**
+
+```bash
+curl -s "https://kireevroman.github.io/json-data-hub/json/safety/emergency_contacts.json"
+```
+
+---
+
+## 📤 Форматы экспорта
+
+На странице каждого датасета доступны:
+
+- **Просмотр:** дерево, таблица (если в метаданных заданы поля строк), сырой текст JSON.
+- **Экспорт:** CSV, XLSX, YAML, JSON, JSONL, XML  — на основе загруженного JSON (клиентская выгрузка в браузере).
+
+---
+
+
+## 📄 Лицензия
+
+MIT — см. [LICENSE](LICENSE).
